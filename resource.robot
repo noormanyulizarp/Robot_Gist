@@ -28,7 +28,6 @@ Login With Eligible User
     Open Browser With Specific URL          https://gist.github.com/
     Make Sure Gist Was Loded Well
     Make Sure User Has Not Login Yet
-    debug
     Login With Eligible User                ${GITHUBACCOUNT}
 
 Insert Data On Selected Element

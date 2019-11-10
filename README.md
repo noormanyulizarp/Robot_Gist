@@ -35,3 +35,6 @@ For this exercise, you will be creating a end-to-end (e2e) tests for creating a 
 * Install Python with pip
 * Run requirements.txt With VENV or just "pip3 install -r requirements.txt"
 
+#### Coverage
+* Scenario Gist :  Make sure CRUD process
+* Scenario Search :  Make sure your gist was published and can't find secret gist

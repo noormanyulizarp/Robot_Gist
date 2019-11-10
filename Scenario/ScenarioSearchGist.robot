@@ -13,3 +13,8 @@ Test Search Your Public Gist With Logged User
     Create Gist For Searh
     Search With Specific Gist                       AlphaOegaGistWasCreated      ${GITHUBACCOUNT.USERNAME}
     Verify Specific Gist Was Found
+
+Test User Should Not Find Secret Gist
+    Make Sure User Has Not Login Yet
+    Search With Specific Gist                       AlphaOegaGistWasCreated      ${GITHUBACCOUNT.USERNAME}
+    Verify Gist Was Secret

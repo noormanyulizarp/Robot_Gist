@@ -1,3 +1,4 @@
 *** Keywords ***
-Create Gist For Searh
+Create Gist For Search
+    Create Gist             isPublic
 

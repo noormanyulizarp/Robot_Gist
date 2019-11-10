@@ -7,8 +7,8 @@ Login With Eligible User
 Insert Username And Password
     [ARGUMENTS]                             ${GITHUBACCOUNT}
     Make Sure Username Input Was Loaded
-    Insert Data On Selected Element         ${GITHUBACCOUNT.USERNAME}         name=username
+    Insert Data On Selected Element         ${GITHUBACCOUNT.USERNAME}      name=username
     Make Sure Password Input Was Loaded
-    Insert Data On Selected Element         ${GITHUBACCOUNT.PASSWORD}         name=password
+    Insert Data On Selected Element         ${GITHUBACCOUNT.PASSWORD}      name=password
     Make Sure Login Was Success             ${GITHUBACCOUNT.USERNAME}
 

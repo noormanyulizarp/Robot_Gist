@@ -17,18 +17,19 @@ ${GITHUBACCOUNT}      USERNAME=yourusername
 
 *** Keywords ***
 Open Browser With Specific URL
-    [ARGUMENTS]                          ${URL}
+    [ARGUMENTS]                             ${URL}
     Close All Browsers
-    SeleniumLibrary.Open Browser         url=${URL}    browser=Chrome      alias=GISTBrowser
-    Set Selenium Speed    0.5
+    SeleniumLibrary.Open Browser            url=${URL}    browser=Chrome      alias=GISTBrowser
+    Set Selenium Speed      0.5
 
 Login With Eligible User
-    [ARGUMENTS]                          ${GITHUBACCOUNT}
-    Open Browser With Specific URL       https://gist.github.com/
+    [ARGUMENTS]                             ${GITHUBACCOUNT}
+    Open Browser With Specific URL          https://gist.github.com/
     Make Sure Gist Was Loded Well
     Make Sure User Has Not Login Yet
-    Login With Eligible User             {GITHUBACCOUNT}
+    debug
+    Login With Eligible User                {GITHUBACCOUNT}
 
 Insert Data On Selected Element
-    [ARGUMENTS]                          ${ELEMENT}      ${DATA}
-    Input Text                           ${ELEMENT}      ${DATA}
+    [ARGUMENTS]                             ${ELEMENT}      ${DATA}
+    Input Text                              ${ELEMENT}      ${DATA}

@@ -29,3 +29,9 @@ For this exercise, you will be creating a end-to-end (e2e) tests for creating a 
 
 * Code quality & readability: Will an average engineer be able to understand the tests just by briefly scanning through the source code?
 * Case coverage: Does the test cover all possible user scenarios
+
+
+#### How To Run The Test
+* Install Python with pip
+* Run requirements.txt With VENV or just "pip3 install -r requirements.txt"
+

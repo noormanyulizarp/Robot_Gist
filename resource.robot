@@ -6,13 +6,14 @@ Library     String
 Library     DebugLibrary
 
 Resource    Keyword/importer.robot
+Resource    variable.robot
 
 *** Variables ***
 ${FAST_TIMEOUT}       2
 ${MEDIUM_TIMEOUT}     3
 ${DEFAULT_TIMEOUT}    5
 
-${GITHUBACCOUNT}      USERNAME=yourusername
+${GITHUBACCOUNTS}     USERNAME=yourusername
 ...                   PASSWORD=yourpassword
 
 *** Keywords ***
@@ -28,7 +29,7 @@ Login With Eligible User
     Make Sure Gist Was Loded Well
     Make Sure User Has Not Login Yet
     debug
-    Login With Eligible User                {GITHUBACCOUNT}
+    Login With Eligible User                ${GITHUBACCOUNT}
 
 Insert Data On Selected Element
     [ARGUMENTS]                             ${ELEMENT}      ${DATA}

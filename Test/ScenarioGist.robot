@@ -19,7 +19,7 @@ Test Create Secret Gist Without Login Yet
     Login With Eligible User                        ${GITHUBACCOUNT}
     Create Gist                                     issecret
 
-Test Edit Secret Existing Gist
+Test Edit Secret Existing GistClick
     Login With Eligible User                        ${GITHUBACCOUNT}
     Edit And Save Existing Gist                     issecret
     Make Sure Edit Was Success

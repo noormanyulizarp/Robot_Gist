@@ -10,4 +10,4 @@ Confirm Have Login Button
 
 Click Sign-in Button
     Confirm Have Login Button
-    Click Element                               css=.mr-3
+    Click Element                               css=.HeaderMenu-link.no-underline.mr-3

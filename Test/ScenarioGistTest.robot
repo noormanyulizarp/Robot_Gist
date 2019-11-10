@@ -41,6 +41,15 @@ Test Create Secret Gist With Add File
     Make Sure User Can See Gist List
     Edit And Save Existing Gist With Add-file       ispublic
 
+Test Search Your Public Gist Without Logged User
+    Make Sure User Has Not Login Yet
+    Search With Specific Gist                       AlphaOegaGistWasCreated      ${GITHUBACCOUNT.USERNAME}
+    Verify Specific Gist Was Found
+
+Test Search Your Public Gist With Logged User
+    Make Sure User Has Not Login Yet
+    Search With Specific Gist                       AlphaOegaGistWasCreated      ${GITHUBACCOUNT.USERNAME}
+    Verify Specific Gist Was Found
 
 
 

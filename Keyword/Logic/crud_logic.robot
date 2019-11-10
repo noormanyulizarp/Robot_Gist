@@ -1,6 +1,10 @@
 *** Keywords ***
 Create Gist
+    [Arguments]                                     ${PUBLIC}
     Make Sure User Can Create Gist
+    Add Gist
+    un keyword if    ${PUBLIC}="ispublic"           Save For Public
+    ...               ELSE                          Save For Secret
 
 Edit And Save Existing Gist With Add-file
     [Arguments]                             ${PUBLIC}

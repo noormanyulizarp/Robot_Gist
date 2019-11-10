@@ -8,7 +8,7 @@ Test Create Public Gist Without Login Yet
     debug
     Make Sure Gist Was Loded Well
     Make Sure User Has Not Login Yet
-    Login With Eligible User
+    Login With Eligible User                    ${GITHUBACCOUNT}
 
 
 

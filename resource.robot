@@ -4,8 +4,8 @@ Library     XvfbRobot
 Library     Collections
 Library     String
 Library     DebugLibrary
-Resource    Keywords/importer.robot
-Resource    API/APIHelper.robot
+
+Resource    Keyword/importer.robot
 
 *** Variables ***
 ${FAST_TIMEOUT}       3

@@ -1,4 +1,5 @@
 .dea/
 .idea
 /sehll/robot_results
-shell/robot_results
+Shell/robot_results
+variable.robot

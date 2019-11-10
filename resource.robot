@@ -15,5 +15,5 @@ ${MEDIUM_TIMEOUT}     5
 Open Browser
     [ARGUMENTS]           ${URL}
     Close All Browsers
-    Open Browser          url=${URL}    browser=Chrome   alias=GIST_Browser run_on_failure=None
+    Open Browser          url=${URL}    browser=Chrome      alias=GIST_Browser      run_on_failure=None
     Set Selenium Speed    0.5

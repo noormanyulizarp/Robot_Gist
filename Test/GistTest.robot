@@ -1,10 +1,10 @@
 *** Settings ***
-Resource          ../../resource.robot
+Resource          ../resource.robot
 Test Teardown     Close All Browsers
 
 *** Keywords ***
 Create Public Gist Without Login Yet
-    Open Browser                    https://gist.github.com/
+    Open Browser                                https://gist.github.com/
     Make Sure Gist Was Loded Well
 
 

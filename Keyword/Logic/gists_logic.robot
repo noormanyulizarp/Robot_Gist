@@ -1,3 +1,6 @@
 *** Keywords ***
-Maake Sure Gist Was Laded Well
+Make Sure Gist Was Loded Well
     Confirm Have Gist Tittle
+    Confirm Have Login Button
+
+

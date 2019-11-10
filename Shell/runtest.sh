@@ -1,1 +1,1 @@
-robot --outputdir robot_results  ../Test
+robot --outputdir robot_results  ../Scenario

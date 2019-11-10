@@ -5,7 +5,7 @@ Test Teardown     Close All Browsers
 *** Keywords ***
 Create Public Gist Without Login Yet
     Open Browser                    https://gist.github.com/
-    Maake Sure Gist Was Laded Well
+    Make Sure Gist Was Loded Well
 
 
 

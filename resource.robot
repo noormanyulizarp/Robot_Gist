@@ -11,9 +11,11 @@ Resource    Keyword/importer.robot
 ${FAST_TIMEOUT}       3
 ${MEDIUM_TIMEOUT}     5
 
+${GITHUBACCOUNT}          USERNAME=youraccount
+...                       EMAIL=youremail
+
 *** Keywords ***
 Open Browser
     [ARGUMENTS]           ${URL}
-    Close All Browsers
     Open Browser          url=${URL}    browser=Chrome      alias=GIST_Browser      run_on_failure=None
     Set Selenium Speed    0.5

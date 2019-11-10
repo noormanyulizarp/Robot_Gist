@@ -12,7 +12,7 @@ ${FAST_TIMEOUT}       3
 ${MEDIUM_TIMEOUT}     5
 
 *** Keywords ***
-Open Chrome Browser
+Open Browser
     [ARGUMENTS]           ${URL}
     Close All Browsers
     Open Browser          url=${URL}    browser=Chrome   alias=GIST_Browser run_on_failure=None
